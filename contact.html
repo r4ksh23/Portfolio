@@ -1,1 +1,43 @@
-    email:raksh2422@gmail.com
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Rakshith</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<button id="darkModeToggle">🌙 Dark Mode</button>
+<nav>
+  <h1>Rakshith</h1>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <span id="modeToggle">🌞 Light Mode</span>
+</nav>
+
+  <section class="contact hidden">
+    <div class="contact-container">
+      <h1>Contact Me</h1>
+      <p>Feel free to reach out for collaborations, internships, or just to say hi 👋</p>
+
+      <form action="mailto:raksh2422@gmail.com" method="POST" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div class="socials">
+        <a href="https://github.com/r4ksh23" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/rakshithc/" target="_blank">LinkedIn</a>
+        <a href="raksh2422@gmail.com">Email</a>
+      </div>
+    </div>
+  </section>
+<script src="script.js"></script>
+</body>
+</html>
